@@ -4,7 +4,7 @@ import { t } from '@/locales'
 
 export function useUsingContext() {
   const ms = useMessage()
-  const usingContext = ref(false)
+  const usingContext = ref<boolean>(true)
 
   function toggleUsingContext() {
     usingContext.value = !usingContext.value
