@@ -15,7 +15,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://prompt.iwooji.com:22321/avatar.jpeg',
+      avatar: 'https://prompt.iwooji.com:22321/avata1.png',
       name: 'iwooji',
       description: 'Star on <a href="https://chat.iwooji.com:11977" class="text-blue-500" target="_blank" >iChatGPT</a>',
     },
